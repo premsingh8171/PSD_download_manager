@@ -169,60 +169,59 @@ public class MainActivity extends AppCompatActivity {
         mDownload1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (permissionClick == 1) {
-                    if (downloadManager.query(downloadId1) == DownloadManager.STATUS_NOT_FOUND) {
+
+                if (downloadManager.query(downloadId1) == DownloadManager.STATUS_NOT_FOUND) {
                         downloadId1 = downloadManager.add(downloadRequest1);
                     }
-                }
             }
         });
 
         mDownload2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (permissionClick == 1) {
-                    if (downloadManager.query(downloadId2) == DownloadManager.STATUS_NOT_FOUND) {
+
+                if (downloadManager.query(downloadId2) == DownloadManager.STATUS_NOT_FOUND) {
                         downloadId2 = downloadManager.add(downloadRequest2);
                     }
-                }
+
             }
         });
 
         mDownload3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (permissionClick == 1) {
-                    if (downloadManager.query(downloadId3) == DownloadManager.STATUS_NOT_FOUND) {
+
+                if (downloadManager.query(downloadId3) == DownloadManager.STATUS_NOT_FOUND) {
                         downloadId3 = downloadManager.add(downloadRequest3);
                     }
-                }
+
             }
         });
 
         mDownload4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (permissionClick == 1) {
-                    if (downloadManager.query(downloadId4) == DownloadManager.STATUS_NOT_FOUND) {
+
+                if (downloadManager.query(downloadId4) == DownloadManager.STATUS_NOT_FOUND) {
                         downloadId4 = downloadManager.add(downloadRequest4);
                     }
-                }
+
             }
         });
 
         mDownload5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (permissionClick == 1) {
 
-                    //if (downloadManager.query(downloadId5) == DownloadManager.STATUS_NOT_FOUND) {
+
+                //if (downloadManager.query(downloadId5) == DownloadManager.STATUS_NOT_FOUND) {
                     //    downloadId5 = downloadManager.add(downloadRequest5);
                     //}
 
                     if (downloadManager.query(downloadId6) == DownloadManager.STATUS_NOT_FOUND) {
                         downloadId6 = downloadManager.add(downloadRequest6);
                     }
-                }
+
 
             }
         });

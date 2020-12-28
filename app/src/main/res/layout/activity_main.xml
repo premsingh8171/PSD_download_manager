@@ -17,15 +17,17 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             android:text="@string/download1"/>
 
         <Button
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_marginLeft="10dp"
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
             android:layout_marginTop="10dp"
             android:text="@string/download2"/>
 
@@ -34,11 +36,14 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_below="@id/button1"
             android:text="@string/download3"/>
 
         <Button
+            android:layout_toRightOf="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
